@@ -14,24 +14,24 @@ It leverages **IBM watsonx.ai** for the Large Language Model (LLM) and **LangCha
 
 ## 🚀 Key Features
 
-* [cite_start]**📄 Document Ingestion:** Upload any PDF document directly through the UI[cite: 40].
-* [cite_start]**🧠 Intelligent Retrieval:** Uses `RecursiveCharacterTextSplitter` and `ChromaDB` to find the most relevant answers[cite: 68, 69].
-* [cite_start]**🤖 Powered by IBM watsonx:** Utilizes the `mistral-small` model (via Watsonx) for high-quality natural language generation[cite: 85].
-* [cite_start]**💬 Interactive Chat:** Simple, user-friendly web interface powered by Gradio[cite: 37].
+* **📄 Document Ingestion:** Upload any PDF document directly through the UI.
+* **🧠 Intelligent Retrieval:** Uses `RecursiveCharacterTextSplitter` and `ChromaDB` to find the most relevant answers.
+* **🤖 Powered by IBM watsonx:** Utilizes the `mistral-small` model (via Watsonx) for high-quality natural language generation.
+* **💬 Interactive Chat:** Simple, user-friendly web interface powered by Gradio[cite: 37].
 
 ## 🛠️ Tech Stack
 
 | Component | Technology | Description |
 | :--- | :--- | :--- |
 | **Language** | ![Python](https://img.shields.io/badge/-Python-black?logo=python) | Core programming language. |
-| **LLM Provider** | **IBM watsonx.ai** | [cite_start]Provides the Foundation Model (Mistral/Granite)[cite: 38]. |
-| **Orchestration** | **LangChain** | [cite_start]Manages the RAG pipeline and chains[cite: 39]. |
-| **Vector Store** | **ChromaDB** | [cite_start]Stores document embeddings for fast search[cite: 39]. |
-| **Interface** | **Gradio** | [cite_start]Web-based UI for file upload and chat[cite: 37]. |
+| **LLM Provider** | **IBM watsonx.ai** | Provides the Foundation Model (Mistral/Granite). |
+| **Orchestration** | **LangChain** | Manages the RAG pipeline and chains. |
+| **Vector Store** | **ChromaDB** | Stores document embeddings for fast search. |
+| **Interface** | **Gradio** | Web-based UI for file upload and chat. |
 
 ## 📂 File Structure
 
-- [cite_start]`qabot.py`: The main application script containing the logic for the LLM, retriever, and Gradio interface[cite: 55].
+- `qabot.py`: The main application script containing the logic for the LLM, retriever, and Gradio interface[cite: 55].
 
 ## ⚡ How to Run
 
@@ -52,7 +52,7 @@ It leverages **IBM watsonx.ai** for the Large Language Model (LLM) and **LangCha
     ```
 
 4.  **Open the App:**
-    Click the local URL provided in the terminal (usually `http://127.0.0.1:7860`)[cite: 317].
+    Click the local URL provided in the terminal (usually `http://127.0.0.1:7860`).
 
 ---
 *Created as part of the IBM RAG and Agentic AI Lab.*
